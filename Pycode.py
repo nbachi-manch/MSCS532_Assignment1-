@@ -39,6 +39,7 @@ def insertion_sort_desc(arr: Sequence[int], trace: bool = False) -> List[int]:
 
     # Insertion sort (descending)
     for i in range(1, len(a)):
+        
         key = a[i]
         j = i - 1
 
